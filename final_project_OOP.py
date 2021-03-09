@@ -3,8 +3,6 @@ import telebot
 from utils import CryptoConverter, APIException
 from config import keys, TOKEN
 
-TOKEN = '1667542141:AAENjvuK8bfwc76JW6VU-AxVNGxHTidoDQw'
-
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start', 'help'])
